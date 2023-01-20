@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styling/AboutUsContent.css'
-import AboutUsImg1 from '../assets/aboutUsImg-1.jfif'
-import AboutUsImg2 from '../assets/aboutUsImg-2.jfif'
+import AboutUsImg1 from '../assets/aboutUsImg-1.jpg'
+import AboutUsImg2 from '../assets/aboutUsImg-2.jpeg'
 import AboutUsImg3 from '../assets/aboutUsImg-3.png'
 import AboutUsImg4 from '../assets/aboutUsImg-4.png'
 
@@ -37,7 +37,7 @@ function AboutUsContent() {
                     <div className=' img-container'>
                         <img src={AboutUsImg1} className='img' alt='About us img' />
 
-                        <img src={AboutUsImg2} style={{ marginLeft: '20px' }} className='img' alt='About us img' />
+                        <img src={AboutUsImg2} style={{ marginLeft: '40px' }} className='img' alt='About us img' />
                     </div>
                 </div>
             </div>
