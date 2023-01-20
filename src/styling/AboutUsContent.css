@@ -34,6 +34,7 @@
   .right .img {
     width: 110%;
     height: 50vh;
+    opacity: 0.9;
   }
   .left .course-img {
     height: 100px;

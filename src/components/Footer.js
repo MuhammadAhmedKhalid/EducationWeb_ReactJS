@@ -7,11 +7,11 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
     return (
         <div className='footer'>
-            <p>Copyright © All rights reserved</p>
+            <p style={{ fontSize: '12px', marginTop: '12px' }}>Copyright © All rights reserved</p>
             <div className='footer-container'>
-                <FaFacebookF size={30} style={{ color: '#fff', margin: '10px' }} />
-                <FaInstagram size={30} style={{ color: '#fff', margin: '10px' }} />
-                <FaLinkedinIn size={30} style={{ color: '#fff', margin: '10px' }} />
+                <FaFacebookF size={15} style={{ color: '#fff', margin: '10px' }} />
+                <FaInstagram size={15} style={{ color: '#fff', margin: '10px' }} />
+                <FaLinkedinIn size={15} style={{ color: '#fff', margin: '10px' }} />
             </div>
         </div>
     )
