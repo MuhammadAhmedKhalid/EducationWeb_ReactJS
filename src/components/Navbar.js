@@ -28,7 +28,7 @@ function Navbar() {
                     <Link to={'/aboutUs'}>About</Link>
                 </li>
                 <li>
-                    <Link>Blog</Link>
+                    <Link to={'/blog'}>Blog</Link>
                 </li>
                 <li>
                     <Link>Courses</Link>

@@ -1,14 +1,14 @@
 import React from 'react'
-import HomeIntro from '../components/HomeIntro'
+import Intro from '../components/Intro'
 import Navbar from '../components/Navbar'
 
-function Home() {
+function Blog() {
     return (
         <div>
             <Navbar />
-            <HomeIntro />
+            <Intro heading="BLOG" />
         </div>
     )
 }
 
-export default Home
+export default Blog
