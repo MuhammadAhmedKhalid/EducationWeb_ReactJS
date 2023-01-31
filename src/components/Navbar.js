@@ -31,10 +31,10 @@ function Navbar() {
                     <Link to={'/blog'}>Blog</Link>
                 </li>
                 <li>
-                    <Link>Courses</Link>
+                    <Link to={'/courses'}>Courses</Link>
                 </li>
                 <li>
-                    <Link>Contact</Link>
+                    <Link to={'/contact'}>Contact</Link>
                 </li>
             </ul>
         </div>
